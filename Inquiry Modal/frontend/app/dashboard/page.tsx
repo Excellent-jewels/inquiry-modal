@@ -35,7 +35,7 @@ const statusTabs = [
 export default function DashboardPage() {
   const [selectedStatus, setSelectedStatus] = useState('All');
   const [inquiries, setInquiries] = useState<Inquiry[]>([]);
-  const { notifications } = useNotification();
+  const { notifications } = useNotification((prev) => prev);
 
   const visibleNotifications = notifications.filter(
     (note) => !(note.dismissed_by?.length > 0)
