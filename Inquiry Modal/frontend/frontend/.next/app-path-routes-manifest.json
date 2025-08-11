@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/dashboard/inquiries/confirm/page": "/dashboard/inquiries/confirm",
+  "/dashboard/inquiries/dispatch/page": "/dashboard/inquiries/dispatch",
+  "/dashboard/inquiries/hold/page": "/dashboard/inquiries/hold",
+  "/dashboard/inquiries/add/page": "/dashboard/inquiries/add",
+  "/dashboard/inquiries/not-available/page": "/dashboard/inquiries/not-available",
+  "/dashboard/inquiries/other/page": "/dashboard/inquiries/other",
+  "/dashboard/inquiries/page": "/dashboard/inquiries",
+  "/dashboard/inquiries/release/page": "/dashboard/inquiries/release",
+  "/dashboard/inquiries/vendor/page": "/dashboard/inquiries/vendor",
+  "/dashboard/page": "/dashboard",
+  "/dashboard/profile/page": "/dashboard/profile"
+}

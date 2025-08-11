@@ -1,0 +1,26 @@
+{
+  "app\\dashboard\\inquiries\\vendor\\page.tsx -> @/components/CSVExport": {
+    "id": 1679,
+    "files": [
+      "static/chunks/679.1e4c2a536e5ef9e3.js"
+    ]
+  },
+  "components\\InquiryStatusPage.tsx -> ./ClientCSVLink": {
+    "id": 8630,
+    "files": [
+      "static/chunks/630.772fc85fa073d4f1.js"
+    ]
+  },
+  "node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
+    "id": 472,
+    "files": [
+      "static/chunks/472.a3826d29d6854395.js"
+    ]
+  },
+  "node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": 9341,
+    "files": [
+      "static/chunks/341.df3329d77a5faa19.js"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "[project]/components/CSVExport.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/CSVExport.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_35bc4b0e._.js",
+      "static/chunks/components_CSVExport_tsx_30672961._.js"
+    ]
+  }
+}
