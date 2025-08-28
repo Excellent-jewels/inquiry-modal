@@ -1,0 +1,36 @@
+version: "3.9"
+services:
+  backend:
+    build: ./backend
+    container_name: fastapi_backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      # Use your database credentials
+      - DATABASE_URL=postgresql://ej_user:EJsecure%402025@db:5432/OrderManagement
+
+  frontend:
+    build: ./frontend
+    container_name: react_frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  db:
+    image: postgres:15
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_USER: ej_user
+      POSTGRES_PASSWORD: EJsecure@2025
+      POSTGRES_DB: OrderManagement
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
